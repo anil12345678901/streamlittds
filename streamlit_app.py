@@ -11,5 +11,3 @@ if b > a and b > c:
 if c > a and c > b: 
   largest = c 
 st.write(largest)
-
-$streamlit run main.py
