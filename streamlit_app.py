@@ -1,5 +1,5 @@
-$pip install streamlit
-$streamlit --version
+pip install streamlit
+streamlit --version
 
 import streamlit as st
 
