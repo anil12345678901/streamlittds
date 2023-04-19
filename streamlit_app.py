@@ -1,13 +1,7 @@
 import streamlit as st
 st.title("TDS Graded Assignment 8")
-a = int(input('first number:')) 
-b = int(input('second number:')) 
-c = int(input('third number:')) 
-largest = 0 
-if a > b and a > c:
-  largest = a 
-if b > a and b > c:
-  largest = b 
-if c > a and c > b: 
-  largest = c 
+a = st.number_input('Insert first number:')
+b = st.number_input('Insert second number:')
+c = st.number_input('Insert third number:')
+largest=st.maxValue(a,b,c)
 st.write(largest)
