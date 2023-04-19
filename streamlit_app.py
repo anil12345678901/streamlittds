@@ -1,4 +1,5 @@
 import streamlit as st
+st.title("TDS")
 
 a = int(input('first number:')) 
 b = int(input('second number:')) 
