@@ -1,6 +1,6 @@
 import streamlit as st
 st.title("TDS")
-
+st.write("TDS")
 a = int(input('first number:')) 
 b = int(input('second number:')) 
 c = int(input('third number:')) 
