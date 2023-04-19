@@ -1,11 +1,8 @@
-pip install streamlit
-streamlit --version
-
 import streamlit as st
 
-a = int(input()) 
-b = int(input()) 
-c = int(input()) 
+a = int(input('first number:')) 
+b = int(input('second number:')) 
+c = int(input('third number:')) 
 largest = 0 
 if a > b and a > c:
   largest = a 
